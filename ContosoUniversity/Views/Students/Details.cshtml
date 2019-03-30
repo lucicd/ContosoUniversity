@@ -1,14 +1,14 @@
 ﻿@model ContosoUniversity.Models.Student
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Student Details";
+    ViewData["Current"] = "Students";
 }
 
-<h1>Details</h1>
+<h2>Student Details</h2>
+<hr />
 
 <div>
-    <h4>Student</h4>
-    <hr />
     <dl class="row">
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.LastName)

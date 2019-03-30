@@ -1,27 +1,46 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    ViewData["Current"] = "Home";
 }
+<link href="~/css/background.css" rel="stylesheet" />
 
-<div class="jumbotron">
-    <h1>Contoso University</h1>
-</div>
-<div class="row">
-    <div class="col-md-4">
-        <h2>Welcome to Contoso University</h2>
-        <p>
-            Contoso University is a sample application that
-            demonstrates how to use Entity Framework Core in an
-            ASP.NET Core MVC web application.
-        </p>
+<h1 class="site-heading text-center text-white d-none d-lg-block">
+    <span class="site-heading-upper text-primary mb-3">Achieving Excellence Together</span>
+    <span class="site-heading-lower">Contoso University</span>
+</h1>
+
+<section class="page-section clearfix">
+    <div class="container">
+        <div class="intro">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+                <h2 class="section-heading mb-4">
+                    <span class="section-heading-upper">Rising Generation</span>
+                    <span class="section-heading-lower">Worthy of our best efforts</span>
+                </h2>
+                <q class="mb-3">
+                    When we respond to the Lord’s gentle invitation, ‘Learn of me,’ we become partakers of His divine power. Let us, therefore, go forward in the spirit of obedience, following our Exemplar by teaching as He would have us teach and learning as He would have us learn.
+                </q>
+                <p class="text-right">
+                    Thomas S. Monson
+                </p>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Build it from scratch</h2>
-        <p>You can build the application by following the steps in a series of tutorials.</p>
-        <p><a class="btn btn-default" href="https://docs.asp.net/en/latest/data/ef-mvc/intro.html">See the tutorial &raquo;</a></p>
+</section>
+
+<section class="page-section cta">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <div class="cta-inner text-center rounded">
+                    <h2 class="section-heading mb-4">
+                        <span class="section-heading-upper">Our Promise</span>
+                        <span class="section-heading-lower">To You</span>
+                    </h2>
+                    <p class="mb-0">At Contoso University, you will have access to work-based learning opportunities during your studies which will count towards your degree. This will involve real work experience while studying to give you practical knowledge and skills on top of your academic qualification.</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Download it</h2>
-        <p>You can download the completed project from GitHub.</p>
-        <p><a class="btn btn-default" href="https://github.com/aspnet/Docs/tree/master/aspnetcore/data/ef-mvc/intro/samples/cu-final">See project source code &raquo;</a></p>
-    </div>
-</div>
+</section>

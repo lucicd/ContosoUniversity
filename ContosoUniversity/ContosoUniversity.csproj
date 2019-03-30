@@ -17,4 +17,10 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\css\business-casual - Copy.min.css">
+      <DependentUpon>business-casual - Copy.css</DependentUpon>
+    </Content>
+  </ItemGroup>
+
 </Project>

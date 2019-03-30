@@ -1,17 +1,17 @@
 ﻿@model ContosoUniversity.Models.Department
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Delete Department";
+    ViewData["Current"] = "Departments";
 }
 
-<h2>Delete</h2>
+<h2>Delete Department</h2>
 
 <p class="text-danger">@ViewData["ConcurrencyErrorMessage"]</p>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>Are you sure you want to delete this department?</h3>
+<hr />
 <div>
-    <h4>Department</h4>
-    <hr />
     <dl class="row">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Name)
